@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+h2{ font-size: 2.5em;margin-top: 20px;}
+h3{ font-size: 2.7em;margin-top: 20px;}
+h4{ font-size: 1.7em;margin-top: 20px;}
+h5{ font-size: 1.7em;margin-top: 20px; color: #051827}
+h6{ font-size: 1.7em;margin-top: 20px; color: #051827;}
+h3{ font-size: 2em;}
+li{ font-size: 1em;margin-top: 20px;}
+p{font-size: 1em;margin-bottom: 20px;}
+a{ font-size: 1.2em;}
+ul, li{
+    padding: 0;
+    list-style-type: none; 
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #578EC6;
+    margin: 20px 0;
+}
+
+button:hover{
+    background-color: #274872;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: #3586d7;
+}
+
+.subtitulo{ 
+    font-size: 1.2em;
+    color: #051827;
+}
+
+.ColorBlock1{
+    background-color: #BED1F2;
+}
+
+/*Menu de navegación*/
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.menu-horizontal > li > a{
+	display: block;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 10em;
+	background-color: rgba(5, 24, 39, 0.7);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: rgba(192, 212, 255, 0.7);
+}
+.menu-vertical li a{
+    display: block;
+	color: white;
+	text-decoration: none;
+}
+header{
+    background-color: rgb(245,245,245);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #3586d7;
+    font-size: 1.7em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 25px;
+}
+header a{
+    margin: 0px 10px;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #051827;
+}
+header a:hover{
+    color: #578EC6;
+}
+/*Menu de navegación*/
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://www.lavoz.com.ar/resizer/rPYVZzvjaxctQTToH8rDgn8oNGM=/980x640/smart/filters:quality(75):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/2UU222H2PZDRLMYRQU7ZVJUUGE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+    font-size: 90px;
+
+}
+
+footer{
+    background-color: #f5f5f5;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: #304A6E;
+}
+
+footer .container{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Lavender .container{
+        text-align: left;
+        padding: 80px 12px;
+        background-color: #dde6fa;
+    
+    }
+    
+    #Lavender .container{
+        display: flex;
+        justify-content: left;
+        max-width: 1100px;
+    }
+    
+    #Lavender .texto{
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+    
+
+
+    #Periwinkle .container{
+        background-color: #BED1F2;
+        display: flex;
+        justify-content: center;
+        max-width: 300px;
+    }
+    #Periwinkle .container{
+        text-align: center;
+    }
+
+    #Periwinkle .texto{
+        width: 50%;
+        max-width: 300px;
+        text-align:initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    #Periwinkle h3{
+        margin-top: 0px;
+    }
+
+    #Periwinkle a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #051827;
+    }
+    
+    #Periwinkle a:hover{
+        color: #578EC6;
+    }
+
+
+
+    /*Grid*/
+
+    
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    column-gap: 20px;
+  }
+
+.grid-container a{
+    text-decoration: underline;
+    color: #051827;
+}
+.grid-container a:hover{
+    color: #578EC6;
+}
+
+
+  .grid-container nav {
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 40px;
+    border-right: 1px solid #ddd;
+  }
+
+  .grid-container nav li{
+    list-style-type: disc;
+    font-size:0.9em;
+  }
+  article {
+    padding: 30px;
+  }
+  article h2 {
+    font-size: 3.5em;
+    max-width: 800px;
+  }
+  article img {
+    width: 100%;
+  }
+  article p {
+    margin-top: 30px;
+    line-height: 2em;
+    color: #000000;
+  }
+  aside {
+    
+    padding: 30px;
+    border-left: 1px solid #ddd;
+  }
+  footer {
+    grid-column: span 3;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding: 30px;
+  }
+
+  footer .container{
+    height: 80px;
+    justify-content: flex-end;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+    <html lang="en">
+        <head>
+            <title>Sistema Operativo</title>
+            <link rel="stylesheet" href="Style.css">
+            <link rel="stylesheet" href="SistemaOp.css">
+            <link rel="icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/2345/2345362.png">
+        </head>
+        <body>
+            <header>
+                <div class="container">
+                    <a href="Index.html" class="logo">INGENIERÍA EN SISTEMAS</a>
+                    <nav>
+                        <ul class="menu-horizontal">
+                            <li>
+                              <a href="Index.html">Cursos</a>
+                              <ul class="menu-vertical">
+                              <li><a href="Sistemas.html">Introducción a Sistemas</a></li>
+                              <li><a href="logica.html">Lógica de Sistemas</a></li>
+                              <li><a href="contabilidad.html">Contabilidad</a></li>
+                              <li><a href="Metodología.html">Metodología de la Investigación</a></li>
+                              <li><a href="DesarrolloHumano.html">Desarrollo Humano y Profesional</a></li>
+                                </ul></li>
+        
+                         <li>
+                            <a href="#información">Nosotros</a>
+                            </li>
+        
+                        <li><a href="https://umg.edu.gt/ingenieria/Periwinkle">UMG</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <section id="hero">
+                <h1>Sistemas Operativo</h1>
+                <form action="#Periwinkle"></form>
+            </section>
+
+            <div class="grid-container">
+                <nav>
+                  <b class="subtitulo">Índice</b>
+                  <br><br>
+                  <ul>
+                    <li><a href="Lacomputadora.html">Generalidades: historia de la computadora</a></li><br>
+                  <li><a href="Conceptos.html">Conceptos básicos</a></li><br>
+                  <li><a href="Hardsoft.html">Hardware y software de computadora: dispositivos periféricos</a></li><br>
+                  <li><a href="SistemaOp.html">¿Qué es un sistema operativo?</a></li><br>
+                  <li><a href="Base de datos.html">Introducción a la base de datos: ¿Qué es una base de datos?</a></li><br>
+                  <li><a href="Redes.html">Introducción a redes: ¿Qué es una red?</a></li><br>
+                  <li><a href="WEB.html">Páginas web: internet e hipertexto</a></li><br>
+                </ul>
+                </nav>
+                <article>
+                  <h2>¿Qué es un sistema operativo?</h2>
+                    <h3>Sistema Operativo</h3>
+                    <p>Los sistemas operativos se desarrollaron por primera vez a finales de la década de 1950 utilizando el almacenamiento en cinta. 
+                        Un sistema operativo (SO) es el programa que, después de ser cargado inicialmente en la 
+                        computadora por un programa de arranque, administra todos los demás programas de aplicación en una computadora. 
+                        Los programas de aplicación hacen uso del sistema operativo al 
+                        realizar solicitudes de servicios a través de una interfaz de programa de aplicación (API) definida.</p>
+                    
+                    <section id="Lavender">
+                        <div class="container">
+                            <div class="texto">
+                                <h2>Arquitectura de un<span class="color-acento"> Sistema Operativo</span></h2>
+                                 <br>
+                                <p>
+
+En la actualidad, las arquitecturas más usadas:
+<br>
+-Monolítica: Linux.
+<br>
+-Microkernel: MacOS, Windows.
+<br>
+Arquitectura Monolítica. Es un modelo en el cual el sistema operativo y todos los servicios fundamentales residen en un monitor monolítico que se accede a través de un mecanismo de llamada al núcleo.
+<br><br>
+<b class="subtitulo">Características</b><br><br>
+•Es un intento de paliar los problemas de la arquitectura plana. <br>
+•Su aportación estriba en que los procesos de usuario ejecutan en espacios de direccionamiento diferentes al del sistema operativo. <br>
+•Las implementaciones de UNIX han respondido tradicionalmente este diseño. <br>
+•Se aislan del sistema de los errores de los procesos de usuario, pero nuevos 
+dispositivos aparecen en el mercado continuamente y es preciso escribir manejadores para soportarlos. 
+De nuevo el sistema crece y la probabilidad del fallo aumenta. <br>
+•El programa de usuario lleva a cabo las llamadas al sistema mediante interrupciones software o traps.  <br>
+•Sólo en modo supervisor se permite al procesador ejecutar instrucciones privilegiadas. 
+Accesos a las posiciones de memoria asignadas a los adaptadores de dispositivo. <br>
+•Copia de datos entre espacios de direccionamiento diferentes. <br>
+<b>Sistemas de micronúcleo.</b> Posibilidad de separar funcionalmente los programas del sistema de los programas de aplicación y asegurar protección adicional con el hardware, origina otra arquitectura, la de Micronúcleo.
+
+<br><br>
+<b class="subtitulo">Características</b>
+<br><br>
+En esta, se trata de combinar el rendimiento y sencillez de la Arquitectura monolítica con la protección y organización de la arquitectura por capas. La idea fundamental es obtener un Núcleo lo más pequeño y rápido posible y tratar el resto de las funciones y componentes como procesos de aplicación.
+<br>
+En esta nueva concepción, es usual que el núcleo solo contenga lo necesario para la gestión de memoria y procesos. Todo el resto se ejecuta con el nivel de privilegios de las aplicaciones que no son del sistema.
+<br>
+En la práctica es un poco difícil conseguir esto sin una pérdida apreciable de rendimiento y en alguna medida deben incluirse en el núcleo otras funciones como el manejo de hardware y algunos Drivers.
+<br><br>
+<b class="subtitulo">Sistemas Operativos </b>
+<br>
+<b>8 bits</b>
+<br>
+En arquitectura de computadoras, 8 bits es un adjetivo usado para describir enteros, direcciones de memoria u otras unidades de datos que comprenden hasta 8 bits (1 octeto) de ancho, o para referirse a una arquitectura de CPU yALU basadas en registros, bus de direcciones o bus de datos de ese ancho.
+<br>
+<b>32 Bits</b>
+<br>
+En arquitectura de computadoras, 32 bits es un adjetivo usado para describir enteros, direcciones de memoria u otras unidades de datos que comprenden hasta 32 bits (4 octetos) de ancho, o para referirse a una arquitectura de CPU y ALU basadas en registros, bus de direcciones o bus de datos de ese ancho.
+32 bits es también un término dado a una generación de computadoras en las cuales los procesadores eran de 32 bits.
+<br>
+<b>64 Bits</b>
+<br>
+En arquitectura de computadoras, 64 bits es un adjetivo usado para describir enteros, direcciones de memoria u otras unidades de datos que comprenden hasta 64 bits (8 octetos) de ancho, o para referirse a una arquitectura de CPU y ALU basadas en registros, bus de direcciones o bus de datos de ese ancho.
+Los microprocesadores de 64 bits han existido en las supercomputadoras desde 1960 y en servidores y estaciones de trabajo basadas en RISC desde mediados de los años 1990. En 2003 empezaron a ser introducidos masivamente en las computadoras personales (previamente de 32 bits) con las arquitecturas x86-64 y los procesadores PowerPC G5.
+</p> 
+
+<img src="https://seguridad.prestigia.es/wp-content/uploads/2022/02/so-seguro-prestigia-seguridad.png">
+
+<h2>Funciones de un<span class="color-acento"> sistema operativo</span></h2>
+             <br>
+            <p>
+                En general, las funciones del sistema operativo son el producto de un trabajo en conjunto con un dispositivo informático. De esta forma, un usuario recibe la ayuda necesaria para realizar las tareas que se le asignan. 
+                <br>
+                En este ejercicio, tanto el hardware como el software son administrados por el sistema operativo y proporcionan los recursos solicitados por el usuario. Dicho esto, el sistema operativo actúa como intermediario entre el hardware, las funciones de entrada, salida y la asignación de memoria en cada caso de uso. 
+                <br>
+                Como consecuencia, el sistema operativo administra los siguientes dispositivos: <br>
+                • Entrada: estos incluyen el teclado, el mouse y la cámara.  <br>
+                • Salida: se pueden considerar bajo esta clasificación a pantallas, impresoras o proyectores digitales.<br>
+                • Almacenamiento: incluyen unidades de almacenamiento internas y externas.<br>
+                • Red: routers o repetidores de señal.<br>
+                <br>
+                Los componentes principales del sistema operativo son el kernel o núcleo, la interfaz de usuario y la interfaz de programación de aplicaciones. En cada caso, el núcleo proporciona un control básico a los dispositivos; por su parte, la interfaz de usuario ayuda en la interacción del usuario con el sistema.
+                </p>
+                
+                <h2>Software de <span class="color-acento">Aplicación</span></h2>
+                <br>
+               <p>En informática, se entiende por software de aplicación, programas de aplicaciones o en algunos casos aplicaciones, al conjunto de los programas informáticos generalmente instalados en el sistema por el usuario, y diseñados para llevar a cabo un objetivo determinado y concreto, de tipo lúdico, instrumental, comunicativo, informativo, etc.
+                El software de aplicación normalmente es diseñado y comercializado aparte del software de sistema que viene incorporado de fábrica al computador, y su selección e instalación en el sistema es a total libre albedrío del usuario.
+                </p>
+                
+                <h2>Software para la <span class="color-acento"> administración de dispositivos</span></h2>
+                <br>
+               <p>Un software para la administración de dispositivos se refiere a una aplicación o plataforma diseñada para gestionar y controlar de manera centralizada los dispositivos de una red, como computadoras, teléfonos móviles, tabletas, servidores, impresoras, entre otros.
+                <br>
+                Este tipo de software permite a los administradores de sistemas y a los equipos de tecnología de la información (TI) monitorear, configurar, actualizar y asegurar los dispositivos de manera eficiente. Algunas de las funcionalidades comunes que suelen ofrecer estos programas son:
+                <br>
+                	Inventariado: Permiten realizar un seguimiento exhaustivo de los dispositivos conectados a la red, incluyendo información sobre hardware, software instalado, dirección IP y estado de conexión.
+                <br>
+                •	Gestión de configuraciones: Facilitan la configuración centralizada de los dispositivos, lo que permite establecer políticas de seguridad, aplicar actualizaciones de software, distribuir ajustes de red y gestionar perfiles de usuario.
+                <br>
+                •	Monitoreo y control remoto: Proporcionan la capacidad de supervisar el rendimiento y el estado de los dispositivos en tiempo real, así como acceder de forma remota a ellos para realizar tareas de mantenimiento, solucionar problemas y aplicar cambios de configuración.
+                <br>
+                •	Seguridad y cumplimiento normativo: Ayudan a mantener la seguridad de los dispositivos mediante la aplicación de políticas de seguridad, como la encriptación de datos, la aplicación de parches de seguridad y la detección de amenazas. Además, permiten asegurar el cumplimiento de normativas y regulaciones específicas.
+                <br>
+                •	Gestión de aplicaciones: Posibilitan la instalación, actualización y eliminación de aplicaciones en los dispositivos de manera centralizada, lo que simplifica la administración y garantiza la coherencia en los entornos de trabajo.
+                <br>
+                •	Informes y análisis: Permiten generar informes detallados sobre el estado de los dispositivos, el uso de recursos, las métricas de rendimiento, las políticas de seguridad y otros aspectos relevantes para la gestión eficiente de la infraestructura de TI.
+                </p>
+                
+                </article>
+                <aside>
+                  <ul>
+                    <li>
+                      <p><strong>Ingeniería en sistemas</strong></p>
+                      <p>2023</p>
+                    </li>
+                    <li>
+                      <p><strong>Categoria:</strong></p>
+                      <p>Tecnología</p>
+                    </li>
+                    <li>
+                      <p><strong>Catedratico:</strong></p>
+                      <p>Ing. Heriberto Antonio Escobar</p>
+                    </li>
+                  </ul>
+                </aside>
+              </div>
+              <footer id="información">
+                <div class="container">
+                    <p>
+                        <br>
+                        Karla Rossmery Ramirez Ruano | 5090-23-1802 
+                        <br>
+                        &copy; Ingeniería en Sistemas
+                        <br>
+                    </p>
+                </div>
+            </footer>
+
+
+    
+</body>
+</html>
